@@ -8,9 +8,9 @@ with open("extraction_annoted.json", mode='r', encoding='utf-8') as f:
 with open("LFP_gpt4o.json", mode='r', encoding='utf-8') as f:
     data1 = json.load(f)
 
-OpenAI.api_key = "sk-15g5tdDeJ25iG5wX1e0790C8Bf69458dB827D9D04c66Db78"
+OpenAI.api_key = "api_key"
 
-client = OpenAI(api_key = "sk-15g5tdDeJ25iG5wX1e0790C8Bf69458dB827D9D04c66Db78")
+client = OpenAI(api_key = "api_key")
 
 query = '''
 [案件类型]
