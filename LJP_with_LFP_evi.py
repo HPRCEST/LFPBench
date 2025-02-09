@@ -11,9 +11,9 @@ with open("LFP_claude_evi2.json", mode='r', encoding='utf-8') as f:
 with open("extraction_evidence_washed2.json", mode='r', encoding='utf-8') as f:
     evidences = json.load(f)
 
-OpenAI.api_key = "sk-agEcX3Su78Bu09c2F49978C6Ba424977B936C8710fAb42E0"
+OpenAI.api_key = "api_key"
 
-client = OpenAI(api_key = "sk-agEcX3Su78Bu09c2F49978C6Ba424977B936C8710fAb42E0")
+client = OpenAI(api_key = "api_key")
 
 query = '''
 你需要参考[证据列表]中各方提出的证据和[参考事实]中模型提供的参考事实，预测法院对原告[诉求列表]的判决结果，并形成一个一一对应的判决列表。
