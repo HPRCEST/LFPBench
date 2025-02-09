@@ -10,9 +10,9 @@ with open("extraction_annoted.json", mode='r', encoding='utf-8') as f:
 
 assert len(evidences) == len(data)
 
-OpenAI.api_key = "sk-agEcX3Su78Bu09c2F49978C6Ba424977B936C8710fAb42E0"
+OpenAI.api_key = "api_key"
 
-client = OpenAI(api_key = "sk-agEcX3Su78Bu09c2F49978C6Ba424977B936C8710fAb42E0")
+client = OpenAI(api_key = "api_key")
 
 query = '''
 请分析上面案件的原告诉求和证据列表，输出站在法庭立场上对案件基本事实的忠实描述；
