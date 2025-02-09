@@ -15,7 +15,11 @@ The code repository includes a complete benchmark dataset, execution scripts for
 ### Running
 
 **LFP.py**: generation script for legal fact;
+
 **LJP_with_evi.py**: evidence-based LJP;
+
 **LJP_with_fact.py**: fact-based LJP;
+
 **LJP_with_LFP_evi.py**: LFP/fact empowered;
+
 **LJP_eval.py**: evaluation script for calculating the accuracy of results.
